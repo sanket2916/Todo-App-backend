@@ -1,0 +1,21 @@
+#spring.datasource.url=jdbc:mysql://localhost:3306/todo_list?createDatabaseIfNotExist=true
+#spring.datasource.username=springstudent
+#spring.datasource.password=springstudent
+#spring.jpa.hibernate.ddl-auto=create
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+#spring.jpa.properties.hibernate.format_sql=true
+
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/todo_list?createDatabaseIfNotExist=true
+        username: springstudent
+        password: springstudent
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: create
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.MySQL8Dialect
+                format_sql: true
